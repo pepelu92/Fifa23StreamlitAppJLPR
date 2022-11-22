@@ -1,3 +1,3 @@
-### Fifa23StreamlitAppJLPR
-### App creada como proyecto final para bootcamp Data Analytics Upgrade Hub
-### 
+### Fifa23StreamlitApp by Pepelu
+ This repository contains a Python Streamlit app for analize all the data in FIFA 23
+ 
