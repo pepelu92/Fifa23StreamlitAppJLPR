@@ -16,12 +16,12 @@ st.set_page_config(layout="wide")
 
 imagencol1, espacio1, link1, espacio2 = st.columns((2.3, .1, 1.3, .1))
 with imagencol1:
-    st.image('ProyectoFinal\Fifa23Players\gen5-horizontal-black.png',  width=400)
+    st.image('gen5-horizontal-black.png',  width=400)
 with link1:
     st.subheader('Streamlit App por [José Luis PR](https://www.linkedin.com/in/joseluisperezruiz1/)')
 
 #--------DATAFRAME-----------
-df = pd.read_csv('ProyectoFinal\Fifa23Players\Fifa23PlayersData.csv')
+df = pd.read_csv('Fifa23PlayersData.csv')
 df.drop(['Known As', 'On Loan'], axis=1, inplace = True)
 df['Type'] = pd.cut(df['Overall'], bins=[0, 64, 74, float('Inf')], labels=['Bronze', 'Silver', 'Gold'])
 df.drop('Positions Played', axis=1, inplace= True)

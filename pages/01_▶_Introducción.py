@@ -16,12 +16,12 @@ st.set_page_config(layout="wide")
 
 imagencol1, espacio1, link1, espacio2 = st.columns((2.3, .1, 1.3, .1))
 with imagencol1:
-    st.image('ProyectoFinal\Fifa23Players\gen5-horizontal-black.png',  width=400)
+    st.image('gen5-horizontal-black.png',  width=400)
 with link1:
     st.subheader('Streamlit App por [José Luis PR](https://www.linkedin.com/in/joseluisperezruiz1/)')
 
 #--------DATAFRAME-----------
-df = pd.read_csv('ProyectoFinal\Fifa23Players\Fifa23PlayersData.csv')
+df = pd.read_csv('Fifa23PlayersData.csv')
 df.drop(['Known As', 'On Loan'], axis=1, inplace = True)
 df['Type'] = pd.cut(df['Overall'], bins=[0, 64, 74, float('Inf')], labels=['Bronze', 'Silver', 'Gold'])
 df.drop('Positions Played', axis=1, inplace= True)
@@ -50,21 +50,10 @@ with st.expander('Ver variables del DataFrame', expanded=False):
 st.markdown('A continuación se puede ver también el primer preprocesado de información que se ha hecho')
 with st.expander('Ver Código', expanded=False):
     with st.echo():
-        df = pd.read_csv('ProyectoFinal\Fifa23Players\Fifa23PlayersData.csv')
+        df = pd.read_csv('Fifa23PlayersData.csv')
         df.drop(['Known As', 'On Loan'], axis=1, inplace = True)
         df['Type'] = pd.cut(df['Overall'], bins=[0, 64, 74, float('Inf')], labels=['Bronze', 'Silver', 'Gold'])
         df.drop('Positions Played', axis=1, inplace= True)
         df.rename(columns={'Best Position':'Position'}, inplace= True)
         df.rename(columns={'Full Name':'Name'}, inplace= True)
         df = df.drop_duplicates()
-
-
-st.markdown('''<div class="waveWrapper waveAnimation"><div class="waveWrapperInner bgTop"><div class="wave waveTop" 
-style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div></div>
-  <div class="waveWrapperInner bgMiddle">
-    <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
-  </div>
-  <div class="waveWrapperInner bgBottom">
-    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
-  </div>
-    </div>''', unsafe_allow_html=True)

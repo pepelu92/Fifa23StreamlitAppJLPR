@@ -23,7 +23,7 @@ page_title='FIFA23 APP',
 page_icon='⚽')
 
 #--------IMAGEN ENCABEZADO--------
-st.image('ProyectoFinal\Fifa23Players\gen5-horizontal-black.png')
+st.image('gen5-horizontal-black.png')
 #-------TEXTO ENCABEZADO---------
 espacio1, link1, espacio2 = st.columns((2.5, 1.3, .1))
 with link1:

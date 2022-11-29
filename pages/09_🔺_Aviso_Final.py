@@ -10,7 +10,7 @@ st.set_page_config(layout="wide")
 
 imagencol1, espacio1, link1, espacio2 = st.columns((2.3, .1, 1.3, .1))
 with imagencol1:
-    st.image('ProyectoFinal\Fifa23Players\gen5-horizontal-black.png',  width=400)
+    st.image('gen5-horizontal-black.png',  width=400)
 with link1:
     st.subheader('Streamlit App por [José Luis PR](https://www.linkedin.com/in/joseluisperezruiz1/)')
 row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, 3.2, .1))
