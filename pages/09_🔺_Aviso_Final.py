@@ -19,10 +19,10 @@ st.markdown('\n')
 st.markdown('\n')
 st.markdown('\n')
 st.markdown('\n')
-st.markdown('Soy José Luis, el creador de esta App. La he realizado como proyecto final del bootcamp Data Analytics en UpgradeHub.')
+st.markdown('Soy José Luis, he creado de esta App como proyecto final del bootcamp Data Analytics en UpgradeHub.')
 st.markdown('''Aclarar que FIFA es propiedad de Electronic Arts y se reserva todos sus derechos. Esta aplicación se ha realizado con 
                 fines educativos por y para fans del viodeojuego FIFA.''')
-st.markdown('Si estás interesad@ en el código o en aportar mejoras para este, no dudes en hacerlo y contactar!') #INTRODUCIR ENLACE GITHUB
+st.markdown('Si estás interesad@ en el código o en aportar mejoras para este, no dudes en hacerlo y contactar! [GITHUB](https://github.com/pepelu92/Fifa23StreamlitAppJLPR)') #INTRODUCIR ENLACE GITHUB
 st.markdown('')
 st.markdown('Tributes to:')
 
@@ -34,4 +34,4 @@ with tribute2:
 with tribute3:
     st.markdown('[MOHAMED ELSAYED](https://www.kaggle.com/code/mhmdsyed/fifa-19-dream-team#Dream-Team)')
 
-st.subheader('En especial a mis profesores y compañeros de bootcamp. Muchas Gracias!')
+st.markdown('En especial a mis profesores y compañeros de bootcamp. Muchas Gracias!')

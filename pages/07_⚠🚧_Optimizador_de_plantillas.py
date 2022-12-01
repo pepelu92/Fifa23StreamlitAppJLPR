@@ -31,8 +31,8 @@ df = df.drop_duplicates()
 
 #---------TEXTO---------
 st.text('')
-st.subheader('(Próximamente Disponible)')
+st.subheader('(En Desarrollo)')
 st.text('')
-st.markdown('''Invito a la comunidad a ayudarme a buscar la mejor manera de conseguir optimizar una plantilla en función de un límite de presupuesto,
-maximizando distintas variables como el potencial, velocidad, overall, etc.''')
+st.markdown('''Invito a la comunidad a proponer formas de obtener distintos 11 iniciales optimizando potencial, overall, o cualquier otra estadística
+introduciendo un presupuesto límite.''')
 

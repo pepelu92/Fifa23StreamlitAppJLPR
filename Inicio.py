@@ -33,6 +33,6 @@ with link1:
 
 st.write('''Esta es una multi-App que se ha creado usando Streamlit.''')
 st.write('''Es una app con fines educativos, por lo que te invito a comentar, proponer mejoras y correcciones para optimizarla.''')
-st.write('''Enlace al código [GITHUB](enlace)''')
+st.write('''Enlace al código [GITHUB](https://github.com/pepelu92/Fifa23StreamlitAppJLPR)''')
 st.text('')
 st.write('Para navegar por las distintas apps solo debe hacer click en el índice de la izquierda')
