@@ -22,3 +22,4 @@ ortools==9.4.1874
 scikit-image==0.19.3
 scikit-learn==1.1.2
 scipy==1.9.1
+xgboost
