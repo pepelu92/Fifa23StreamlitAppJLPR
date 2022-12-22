@@ -176,7 +176,7 @@ st.text('')
 st.markdown('En este caso vamos a elegir el modelo de Random Forest como el más idóneo para la predicción de "Potential".')
 ejey = np.array(Y_test)
 st.markdown('Vamos a graficarlo para poder verlo mejor, desde 2 perspectivas.')
-col1,col2 = st.columns(1.2,0.8)
+col1,col2 = st.columns((1.2,0.8))
 with col1:
     fig3 = px.scatter(x = ejey, y = prediccionRF)
     st.plotly_chart(fig3)
