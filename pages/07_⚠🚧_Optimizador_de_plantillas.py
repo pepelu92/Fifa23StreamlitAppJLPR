@@ -33,6 +33,6 @@ df = df.drop_duplicates()
 st.text('')
 st.subheader('(En Desarrollo)')
 st.text('')
-st.markdown('''Invito a la comunidad a proponer formas de obtener distintos 11 iniciales optimizando potencial, overall, o cualquier otra estadística
-introduciendo un presupuesto límite.''')
+#st.markdown('''Invito a la comunidad a proponer formas de obtener distintos 11 iniciales optimizando potencial, overall, o cualquier otra estadística
+#introduciendo un presupuesto límite.''')
 
